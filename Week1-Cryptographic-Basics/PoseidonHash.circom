@@ -1,3 +1,5 @@
+// A circuit that proves input to a Poseidon Hash.
+
 pragma circom 2.1.6;
 
 include "circomlib/poseidon.circom";
