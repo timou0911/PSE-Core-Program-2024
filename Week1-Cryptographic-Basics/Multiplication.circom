@@ -1,3 +1,5 @@
+// A circuit that proves the multiplication of three numbers.
+
 pragma circom 2.1.6;
 
 template Multiplication() {
