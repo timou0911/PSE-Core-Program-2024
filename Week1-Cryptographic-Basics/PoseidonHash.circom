@@ -13,7 +13,7 @@ template PoseidonHash() {
     hasher.inputs[0] <== preimage;
     hashOutput <== hasher.out;
 
-    assert(hashOutput == hash);
+    hashOutput === hash;
 }
 
 component main = PoseidonHash();
